@@ -25,7 +25,7 @@ import smtplib
 #The Simple Mail Transfer Protocol (SMTP) is an Internet standard 
 #communication protocol for electronic mail transmission.
 
-email_sender = 'aimo.malik77@gmail.com'
+email_sender = 'user@gmail.com'
 email_password = 'mwtryisenjwgshsc' #generate app password from sender's gmail account
 
 email_reciever = 'jacanor574@bymercy.com' #temporary mail
