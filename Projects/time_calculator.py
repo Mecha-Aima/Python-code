@@ -1,4 +1,17 @@
 def add_time(start, duration, start_day=''):
+    """
+    Add a duration to a start time, and return the result as a string.
+
+    Args:
+        start (str): The start time in 12-hour format, e.g. '3:45 PM'.
+        duration (str): The duration to add to the start time, in format 'HH:MM'.
+        start_day (str, optional): The day of the week that the start time is on.
+            Defaults to None.
+
+    Returns:
+        str: The result of adding the duration to the start time, in 12-hour format.
+            If start_day is given, the result will also include the day of the week.
+    """
     # Days of the week
     days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
     
